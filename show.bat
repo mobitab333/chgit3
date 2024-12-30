@@ -8,3 +8,5 @@ python -c "import pyautogui as pag; pag.click(156, 552, duration=2)"
 python -c "import pyautogui as pag; pag.click(587, 14, duration=2)"
 echo ..........................................................
 echo Your Device Name: %username%@%computername%
+echo "last command"
+timeout /t 7200 /nobreak
