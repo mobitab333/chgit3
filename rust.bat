@@ -30,7 +30,7 @@ timeout /t 5
 
 REM Retrieve the current ID and password
 for /f "delims=" %%i in ('rustdesk.exe --get-id') do set rustdesk_id=%%i
-set rustdesk_pw=your_password_here  REM Replace with your actual password or logic to retrieve it
+set rustdesk_pw=Pass*2024 REM Replace with your actual password or logic to retrieve it
 
 REM Display the ID and Password
 echo ...............................................
