@@ -5,7 +5,7 @@ set RUSTDESK_PATH="C:\Program Files\RustDesk\"
 REM Download RustDesk executable if not already present
 if not exist rustdesk.exe (
     echo Downloading RustDesk...
-    curl -L "https://github.com/rustdesk/rustdesk/releases/latest/download/rustdesk.exe" -o rustdesk.exe
+    curl -L "https://github.com/rustdesk/rustdesk/releases/download/1.3.6/rustdesk-1.3.6-x86_64.exe" -o rustdesk.exe
 )
 
 REM Install RustDesk silently
